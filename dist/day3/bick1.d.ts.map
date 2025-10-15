@@ -1,0 +1,1 @@
+{"version":3,"file":"bick1.d.ts","sourceRoot":"","sources":["../../src/day3/bick1.ts"],"names":[],"mappings":"AAAA,OAAM,EAAE,OAAO,EAAE,MAAM,WAAW,CAAC;AAEnC,qBAAa,IAAK,SAAQ,OAAO;IAC7B,OAAO,CAAC,WAAW,CAAa;gBAEpB,KAAK,EAAC,MAAM,EAAE,WAAW,EAAC,MAAM;IAIrC,iBAAiB,IAAG,IAAI;CAKlC"}

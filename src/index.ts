@@ -7,3 +7,4 @@ function main(){
      console.log (student1.getstudentDistrict())
 }
 main();
+
