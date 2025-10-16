@@ -1,1 +1,1 @@
-{"version":3,"file":"Rectangle.d.ts","sourceRoot":"","sources":["../../src/day5/Rectangle.ts"],"names":[],"mappings":"AAAA,qBAAa,SAAS;IAElB,OAAO,CAAC,KAAK,CAAW;CAAA"}
+{"version":3,"file":"Rectangle.d.ts","sourceRoot":"","sources":["../../src/day5/Rectangle.ts"],"names":[],"mappings":"AAAA,qBAAa,SAAS;IAElB,OAAO,CAAC,MAAM,CAAQ;IACtB,OAAO,CAAC,KAAK,CAAS;gBAGT,KAAK,EAAC,MAAM,EAAE,MAAM,EAAC,MAAM;IAajC,QAAQ,IAAG,MAAM;IAGxB,OAAO,MAAA;IAAC,QAAQ,CAAC,KAAK,EAAC,MAAM,GAAE,IAAI;IAG5B,SAAS,IAAG,IAAI;IAGvB,OAAO,MAAA;IAAC,SAAS,CAAC,MAAM,EAAC,MAAM;IAE/B,OAAO,CAAC,WAAW,CAAA;CAClB"}

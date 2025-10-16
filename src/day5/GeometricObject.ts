@@ -1,26 +1,33 @@
 import{ Rectangle } from "./Rectangle";
-import{Circle} from "./cricle";
+import{Circle} from "./Cricle";
 
-export class GeometricObject extends Rectangle {
-    private GeometricObject();
 
-    constructor GeometricObject(color:string, Filled:boolean){
+export class GeometricObject {
+    private color: string;
+    private filled: boolean;
+    private dateCreated: Date;
+
+
+   constructor (color: string = "White", filled: boolean = false) {
         
-        this.GeometricObject;
+        this.color = color;
+        this.filled = filled;
+        this.dateCreated = new Date(); 
     }
-    public getColor(): string{
-        console.log(""+this.getColor);
+    
+    public setColor(color: string): void {
+        this.color = color;
     }
-    public setColor(color:string):void{
-        console.log(""+this.setColor);
+    public isFilled(): boolean {
+        return this.filled; 
     }
-    public isFilled():boolean{
-        console.log(""+this.isFilled);
+     public setFilled(filled: boolean): void {
+        this.filled = filled;
     }
-    public getDateCreate():void {
-        console.log("this is the "+this.GeometricObject);  
+    public getDateCreated(): Date { 
+        return this.dateCreated;
     }
-    public toString():String{
-        console.log(""+this.toString);
+    public toString(): string {
+        return `GeometricObject [color: ${this.color}, filled: ${this.filled}, dateCreated: ${this.dateCreated.toDateString()}]`;
     }
 }

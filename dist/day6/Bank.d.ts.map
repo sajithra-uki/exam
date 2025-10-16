@@ -1,1 +1,1 @@
-{"version":3,"file":"Bank.d.ts","sourceRoot":"","sources":["../../src/day6/Bank.ts"],"names":[],"mappings":"AAAA,qBAAa,SAAS;IAElB,OAAO,CAAC,IAAI,CAAW;CAAA"}
+{"version":3,"file":"Bank.d.ts","sourceRoot":"","sources":["../../src/day6/Bank.ts"],"names":[],"mappings":"AAGA,qBAAa,IAAI;IAEb,OAAO,CAAC,OAAO,CAAQ;IAEhB,YAAY,IAAG,MAAM;CAE3B;AAGD,qBAAa,GAAK,SAAQ,IAAI;;IAKnB,YAAY,IAAI,MAAM;CAIhC"}

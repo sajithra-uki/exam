@@ -2,16 +2,43 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Rectangle = void 0;
 class Rectangle {
-    speed = 20;
+    height;
+    width;
+    constructor(width, height) {
+        this.width = width;
+        this.height = height;
+    }
+    constructor(width, height, color, Fillter) {
+        this.width = width;
+        this.height = height;
+        this.color = color;
+        this.Fillter = Fillter;
+    }
+    getWidth() {
+        return this.width = width;
+    }
+    publish;
+    setWidth(width) {
+        this.width;
+    }
+    getHeight() {
+        return this.height = height;
+    }
+    publish;
+    setHeihth(height) {
+        this.height;
+    }
+    dateCreated;
 }
 exports.Rectangle = Rectangle;
-constructor;
-Rectangle();
+publish;
+WebGLVertexArrayObject();
+double;
 {
-    this.Rectangle = Rectangle;
 }
-get();
-void {
-    console, : .log("The speed of the Vehicle is " + this.speed)
-};
+publish;
+getPerimeter();
+double;
+{
+}
 //# sourceMappingURL=Rectangle.js.map

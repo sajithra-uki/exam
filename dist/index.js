@@ -9,17 +9,3 @@ function main() {
 }
 main();
 //# sourceMappingURL=index.js.map
-
-function functionForBanking(){
-    const bankobj = new Bank();
-    const BOCobj = new BOC();
-    const hnbobj = new HNB();
-    const Peoplesobj = new Peoples();
-    console.log("How much I'll get if i deposite"+bankobj.deposit+"in each bank.");
-    console.log ("I'll get  "+bankobj.interest()+"in general");
-    console.log ("I'll get  "+hnbkobj.interest()+"in HNB");
-    console.log ("I'll get  "+bocobj.interest()+"in BOC");
-    console.log ("I'll get  "+Peoplesobj.interest()+"in Peoples");
-
-
-}
